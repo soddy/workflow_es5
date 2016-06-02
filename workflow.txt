@@ -1,0 +1,27 @@
+源文件
+src
+	css
+		*.scss
+	img
+		**
+			*
+	js
+		app
+		common
+		controllers
+		lib
+		models
+	*.html
+
+测试文件
+dev
+	css
+		*.css
+	img
+		**
+			*
+	js
+		lib		//辅助库文件，如jquery.linscroll等
+		common.js	//通用文件，如jQuery,TweenMax等打包在一起
+		index.js	//入口文件
+	*.html
